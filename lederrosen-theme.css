@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Great+Vibes&display=swap');
+
+.btn-link {
+    color: #000;
+}
+
+.checkout .checkout-aside-product-list .nesting-level-1 .line-item-details-container div {
+    color: #000000 !important;
+}
+
+.checkout .checkout-aside-product-list .nesting-level-1 .line-item-price div {
+    color: #000000 !important;
+}
+
+.gallery-slider-item .gallery-slider-image {
+    inline-size: -webkit-fill-available;
+}
+
+/* --- LEDERROSEN MANUFAKTUR: DAS GEMERKTE DESIGN --- */
+
+/* 1. SCHRIFTARTEN (Playfair & Great Vibes) */
+/* Google Fonts import stands at the top because CSS requires imports before style rules. */
+
+/* 2. DER RETTENDE ZEILEN-CODE (Hammercode) */
+h1.product-detail-name,
+.product-detail-description-text h2,
+.product-detail-description-text h3,
+#manufaktur-story-wrapper h1 {
+    display: table !important;
+    width: 100% !important;
+    line-height: 2.5 !important; /* Verhindert das Überlappen aus Bild 13-19 */
+    font-family: 'Great Vibes', cursive !important;
+    color: #8e2121 !important;
+    font-weight: normal !important;
+    padding: 15px 0 !important;
+    text-align: center !important;
+}
+
+/* 3. DIE ROMANTISCHEN PRODUKTKARTEN (Galerie-Stil) */
+.product-box {
+    border: none !important;
+    background: transparent !important;
+    padding: 15px !important;
+}
+
+.product-image-wrapper {
+    border: 1px solid #e0d5c1 !important; /* Der gemerkte Champagner-Rahmen */
+    padding: 15px !important;
+    background: #ffffff !important;
+    border-radius: 4px !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03) !important;
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) !important;
+}
+
+/* Hover-Effekt: Die Rose kommt dem Kunden entgegen */
+.product-box:hover .product-image-wrapper {
+    transform: translateY(-10px) scale(1.02) !important;
+    box-shadow: 0 20px 40px rgba(142, 33, 33, 0.1) !important;
+    border-color: #8e2121 !important;
+}
+
+/* 4. TYPOGRAFIE (Namen & Preise in Weinrot) */
+.product-name,
+.product-detail-description-text {
+    font-family: 'Playfair Display', serif !important;
+    color: #3e2723 !important;
+    text-align: center !important;
+}
+
+.product-price,
+.product-detail-price {
+    color: #8e2121 !important;
+    font-family: 'Playfair Display', serif !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+}
+
+/* 5. BUTTONS (Manufaktur-Siegel) */
+.btn-buy {
+    background: #8e2121 !important;
+    border: none !important;
+    font-family: 'Playfair Display', serif !important;
+    font-style: italic !important;
+    border-radius: 2px !important;
+    box-shadow: 0 4px 10px rgba(142, 33, 33, 0.2) !important;
+}
+
+.btn-buy:hover {
+    background: #5d4037 !important;
+    transform: translateY(-2px) !important;
+}
+
+/* 6. TIP-MARKIERUNG (Das besondere Detail) */
+.product-detail-description-text p:last-of-type {
+    border-left: 3px solid #8e2121 !important;
+    padding-left: 15px !important;
+    font-style: italic !important;
+    background: #fffcf9 !important;
+    margin-top: 20px !important;
+}
